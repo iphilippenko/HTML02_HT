@@ -1,0 +1,452 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+    padding: 5px 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    clear: both;
+}
+
+header .logo {
+
+    float: left;
+}
+
+nav {
+    float: right;
+    padding-top: 4px;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+     display: block;
+     color: #999999;
+     font-size: 1em;
+     margin: 10px 10px;
+     font-family: 'Montserrat', sans-serif;
+     text-decoration: none;
+     letter-spacing: 1px;
+ }
+
+nav > ul> li a:active,
+nav > ul> li a:hover {
+    color: #000000;
+}
+/*introduction*/
+
+.intro {
+    padding: 10% 0 5%;
+    text-align: center;
+}
+
+.intro h1 {
+    color: #333333;
+    font-size: 4em;
+    font-family: 'Amble Light', arial, sans-serif;
+}
+
+
+.intro h2 {
+    font-size:1.5em;
+    color: #555555;
+    font-family: 'Amble Light', arial, sans-serif;
+    padding: 1% 0 4%;
+}
+
+.intro h3 {
+    font-size: 2.5em;
+    color: #555555;
+    font-family: 'Amble Light', arial, sans-serif;
+}
+
+.dbutton {
+    text-align: center;
+    padding: 2.5em 0 3em 0;
+}
+
+.dbutton a {
+    font-family: 'Amble Light', arial, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgb(57, 152, 245);
+    background: #3998f5;
+    background: -ms-linear-gradient(top,  #3998f5 0%,#1777d9 100%);
+    background: linear-gradient(to bottom,  #3998f5 0%,#1777d9 100%);
+    border: 1px solid #076CCE;
+    padding: 8px 30px;
+    font-size: 1.2em;
+    color: #ffffff;;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.dbutton a img {
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.dbutton a:hover {
+    background: #1777d9;
+    background: -ms-linear-gradient(top, #1777d9 0%, #3998f5 100%);
+    background: linear-gradient(to bottom, #1777d9 0%, #3998f5 100%);
+    border: 1px solid #076CCE;
+}
+
+.available {
+    font-family: 'Amble Light', arial, sans-serif;
+    font-size: 1.3em;
+    color: #555555;
+}
+
+.available span {
+    color: #328fef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*features*/
+.features {
+    background: #f7f7f7;
+    padding: 5% 0;
+    text-align: center;
+    box-shadow: inset 0 0 30px #C9C4C4;
+    border-bottom: 1px solid #CAC9C9;
+}
+
+.features h2 {
+    padding-bottom: 4%;
+    font-family: 'Amble Light', arial, sans-serif;
+    font-size: 4em;
+}
+
+
+/* pricing table */
+
+.prices {
+    padding: 5% 0 0;
+}
+
+.prices h2 {
+    font-family: 'Amble Light', arial, sans-serif;
+    font-size: 4em;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.plans,
+.plans ul,
+.plans ul li {
+    padding: 0;
+    margin: 0;
+}
+
+
+.pricingPlans {
+    text-align: center;
+}
+
+.pricingPlans .plans .plan {
+    display: inline-block;
+    background: #ffffff;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 2px 10px #aaaaaa;
+}
+
+.planCont .title h3 {
+    font-size: 2em;
+    color: #3e4f6a;
+    margin: 0;
+    padding: .6em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.planCont .title .bestTitle {
+    background: #333333;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.bestPlan {
+    padding-bottom: 10px;
+}
+
+.planCont .price p {
+    font-family: 'Amble Light', arial, sans-serif;
+    background-color: #202020;
+    font-size: 1.5em;
+    color: #ffffff;
+    line-height: 2.5em;
+    margin-bottom: 1em;
+}
+
+.planCont .price .bestPrice {
+    background: #000000;
+}
+
+.planCont .price p span {
+    color: #E2EDFD;
+}
+
+
+.planCont .options li {
+    color: #0365FF;
+    line-height: 3em;
+    font-family: 'Amble Light', arial, sans-serif;
+    border-bottom: 1px solid #E9E9E9;
+    font-size: 1.2em;
+}
+
+.planCont .options li span {
+    color: #333333;
+}
+
+.planCont .button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+    letter-spacing: 3px;
+    line-height: 3em;
+    border: 2px solid #3998F5;
+    display: inline-block;
+    width: 80%;
+    border-radius: 4px;
+    margin: 1.5em 0 1.8em;
+    font-family: 'Amble Light', arial, sans-serif;
+    font-size: 1.2em;
+}
+.planCont .bestButton a {
+    color: #fff;
+    background: #3998F5;
+    border: 2px solid #3998F5;
+}
+
+.planCont .button a:hover {
+    background: #1B8DFC;
+    border: 2px solid #1B8DFC;
+}
+
+.pricingPlans .plans .plan {
+    width: 26%;
+    margin: 0 3.333% 20px 0;
+}
+
+.pricingPlans .plans .middle-plan {
+    width: 31%;
+    margin: 0 3.333% 20px 0;
+}
+
+.pricingPlans .plans > li:last-child {
+    margin-right: 0;
+}
+
+/* support */
+
+.support {
+    background: #ffffff;
+    padding: 6% 0 2%;
+}
+
+.support h2 {
+    font-family: 'Amble Light', arial, sans-serif;
+    color: #333333;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.intro h1 strong,
+.intro h3 b,
+.features h2 b,
+.prices h2 b,
+.support h2 b {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.designers .designer:first-child {
+    margin-left: 0;
+}
+
+.designers .designer {
+    position: relative;
+    width: 22.8%;
+    display: block;
+    float: left;
+    margin: 1% 0 1% 2.8%;
+}
+
+.designers .designer img {
+    border: 7px solid #ffffff;
+    box-shadow: 0 0 7px #aaaaaa;
+    max-width: 100%;
+    display: block;
+}
+
+.designers .designer:hover {
+    opacity: 0.85;
+}
+
+.description {
+    padding-top: 10%;
+}
+
+.description a {
+    text-decoration: none;
+}
+
+.description a h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: #333333;
+}
+
+.description a h4:hover{
+    color: #3998F5;
+}
+
+.description  p {
+    font-size: 1.1em;
+    padding: 0.5em 0;
+    color: #333333;
+    line-height: 1.5em;
+    font-family: 'Amble Light', arial, sans-serif;
+}
+
+.support h5 {
+    font-size: 2em;
+    color: #333333;
+    padding-top: 5%;
+    font-family: 'Amble Light', sans-serif;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    border-bottom: 2px solid #E6E6E6;
+    padding: 2% 0 6%;
+}
+
+.social a .twitter {
+    background-position: 0 top;
+}
+
+.social a.twitter:hover {
+    background-position: 0 bottom;
+}
+
+.social li a {
+    height: 42px;
+    width: 42px;
+    display: block;
+    text-indent: -9999px;
+    background: url(../images/img-sprite.png);
+}
+
+.social li {
+    width: 42px;
+    height: 42px;
+    background: none;
+    padding: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.social a.facebook {
+    background-position: -55px top;
+}
+.social a.facebook:hover {
+    background-position: -55px bottom;
+}
+.social a.google-plus {
+    background-position: -111px top;
+}
+.social a.google-plus:hover {
+    background-position: -111px bottom;
+}
+.social a.pinterest {
+    background-position: -168px top;
+}
+.social a.pinterest:hover {
+    background-position: -168px bottom;
+}
+.social a.linkedin {
+    background-position: -225px top;
+}
+.social a.linkedin:hover {
+    background-position: -225px bottom;
+}
+
+/* footer */
+
+footer .menu {
+    float: left;
+}
+
+footer .copy{
+    float: right;
+    padding-top: 10px;
+}
+
+footer .menu li {
+    display: inline-block;
+}
+
+footer .menu li a {
+    color: #999999;
+    display: block;
+    margin: 10px 10px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+footer .menu li.active a,
+footer .menu li a:hover {
+    color: #000000;
+}
+
+footer .copy p{
+    font-family: 'Montserrat', sans-serif;
+    color: #999999;
+    font-size: 1em;
+}
+
+footer .copy p a{
+    color: #3998F5;
+}
+footer .copy p a:hover{
+    color: #555555;
+}
+
+footer {
+    padding-bottom: 4%;
+}
+
+
+/* RWD */
+@media (max-width:1366px){
+    .wrap{
+        width:90%;
+    }
+}
+
