@@ -8,7 +8,7 @@ img {
 }
 
 .wrap {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -271,7 +271,7 @@ nav > ul> li a:hover {
     color: #333333;
     font-size: 4em;
     text-align: center;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 .intro h1 strong,
@@ -282,11 +282,11 @@ nav > ul> li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-.designers .designer:first-child {
+.designersgrp .designer:first-child {
     margin-left: 0;
 }
 
-.designers .designer {
+.designersgrp .designer {
     position: relative;
     width: 22.8%;
     display: block;
@@ -294,14 +294,14 @@ nav > ul> li a:hover {
     margin: 1% 0 1% 2.8%;
 }
 
-.designers .designer img {
+.designersgrp .designer img {
     border: 7px solid #ffffff;
     box-shadow: 0 0 7px #aaaaaa;
     max-width: 100%;
     display: block;
 }
 
-.designers .designer:hover {
+.designersgrp .designer:hover {
     opacity: 0.85;
 }
 
@@ -334,7 +334,7 @@ nav > ul> li a:hover {
 .support h5 {
     font-size: 2em;
     color: #333333;
-    padding-top: 5%;
+    margin-top: 30%;
     font-family: 'Amble Light', sans-serif;
     text-align: center;
 }
@@ -429,6 +429,7 @@ footer .copy p{
     font-family: 'Montserrat', sans-serif;
     color: #999999;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 footer .copy p a{
@@ -444,9 +445,219 @@ footer {
 
 
 /* RWD */
-@media (max-width:1366px){
-    .wrap{
+@media (max-width: 1366px){
+    .wrap {
         width:90%;
     }
 }
+
+@media (max-width: 1280px){
+
+    footer .menu {
+        float:none;
+        text-align: center;
+    }
+
+    footer .copy {
+        float:none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .intro h1,
+    .features h2,
+    .prices h2,
+    .support h2 {
+        font-size: 3.5em;
+    }
+    .intro h3 {
+        font-size: 2em;
+    }
+
+
+    .planCont .options li {
+        line-height: 2.5em;
+        font-size: 1em;
+    }
+
+    .planCont .price p {
+        font-size: 1.2em;
+    }
+
+    .planCont .title1 h3 {
+        font-size: 1.8em;
+    }
+
+    .planCont .title h2 {
+        font-size: 1.8em;
+    }
+
+    .planCont .button a {
+        font-size: 1em;
+    }
+
+    .intro {
+        padding: 110px 0 70px;
+    }
+
+    .features {
+        padding: 85px 0 50px;
+    }
+
+    .prices {
+        padding: 85px 0 0;
+    }
+
+    .support {
+        padding: 100px 0 50px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .intro h1,
+    .features h2,
+    .prices h2,
+    .support h2 {
+        font-size: 3em;
+    }
+
+    .intro h2 {
+        font-size: 1.5em;
+    }
+
+    .planCont .title h3 {
+        font-size: 1.8em;
+    }
+
+
+    .planCont .button a {
+        font-size: 1em;
+    }
+
+    .intro {
+        padding: 100px 0 45px;
+    }
+
+    .features {
+        padding: 55px 0 30px;
+    }
+
+    .prices {
+        padding: 45px 0 0;
+    }
+
+    .support {
+        padding: 60px 0 30px;
+    }
+
+    .dbutton {
+        padding: 2em 0 2em 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .intro h1,
+    .features h2,
+    .prices h2,
+    .support h2 {
+        font-size: 2.5em;
+    }
+
+    header .logo {
+        float: none;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    .intro {
+        padding: 110px 0 45px;
+    }
+
+    .pricingPlans .plans .plan {
+        width: 65%;
+        margin: 0 0 20px 0;
+    }
+
+    .pricingPlans .plans .plan:last-child {
+        margin-bottom: 0;
+    }
+
+    .designersgrp .designer {
+        width: 45%;
+    }
+
+    .designersgrp .designer:first-child {
+        margin: 1% 0 1% 2.8%;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 1.7em;
+    }
+
+    .features h2,
+    .prices h2,
+    .support h2 {
+        font-size: 1.5em;
+    }
+    .intro h2 {
+        font-size: 1.2em;
+    }
+
+    .intro h3  {
+        font-size: 1.3em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+
+    .support h5 {
+        font-size: 1.2em;
+    }
+
+    .intro {
+        padding: 100px 0 35px;
+    }
+
+    .features {
+        padding: 35px 0 30px;
+    }
+
+    .prices {
+        padding: 30px 0 0;
+    }
+
+    .support {
+        padding: 40px 0 20px;
+    }
+
+    nav > ul > li a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        position: absolute;
+        z-index: 0;
+    }
+
+    .intro {
+        padding: 110px 0 35px;
+    }
+
+    .designersgrp .designer {
+        margin: 1% 1% 1% 4%;
+    }
+}
+
 
