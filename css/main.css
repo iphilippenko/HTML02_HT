@@ -282,6 +282,10 @@ nav > ul> li a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.designersgrp {
+    overflow: hidden;
+}
+
 .designersgrp .designer:first-child {
     margin-left: 0;
 }
@@ -334,7 +338,7 @@ nav > ul> li a:hover {
 .support h5 {
     font-size: 2em;
     color: #333333;
-    margin-top: 30%;
+    margin-top: 2em;
     font-family: 'Amble Light', sans-serif;
     text-align: center;
 }
@@ -621,7 +625,7 @@ footer {
     }
 
     .support h5 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .intro {
